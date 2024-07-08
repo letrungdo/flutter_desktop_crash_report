@@ -1,0 +1,21 @@
+name: flutter_desktop_crash_report
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  firebase_core: ^3.1.1
+  firebase_crashlytics: ^4.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

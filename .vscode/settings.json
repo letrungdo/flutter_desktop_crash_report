@@ -1,0 +1,22 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "dart.lineLength": 140,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [140],
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.fvm": true
+  }
+}
